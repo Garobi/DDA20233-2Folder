@@ -1,0 +1,62 @@
+body{
+    background-color: yellow;
+    color: white;
+    margin: 10px 100px 10px 100px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header img {
+    display: block;
+    max-width: 100%;
+    border-radius: 5px;
+    max-width: 100px;
+}
+
+img {
+    border-radius: 5px;
+}
+  
+.navL {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navL nav a {
+    color: black;
+  }
+  
+  .logo {
+      max-width: 300px;
+  }
+  
+  .navR ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .navR a {
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+  }
+  
+  .navR a:hover {
+    color: #122ab2;
+  }
+
+.char {
+    text-align: center;
+    border: 3px solid green;
+}
