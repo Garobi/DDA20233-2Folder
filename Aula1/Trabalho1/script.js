@@ -10,13 +10,32 @@ async function getCharacters() {
     }
 }
 
+function getRand(randArr) {
+    while (randArr.length < 4) {
+        var val = Math.floor(Math.random() * 12);
+        if (randArr.includes(val.toString())) {
+            getRand(randArr)
+        }
+        else{
+            randArr.push(val.toString())
+        }
+    }
+    debugger
+
+    return randArr
+}
+
 async function setCharacters() {
     let characters = await getCharacters();
-    debugger;
-    var divElem = document.createElement("div"),
+    var randArr = [],
+        randval = getRand(randArr),
+        divElem = document.createElement("div"),
         imgElem = document.createElement("img"),
         h2Elem = document.createElement("h2"),
         pElem = document.createElement("p");
+        
+    debugger;
+
 
     imgElem.src = "img/dorio.png";
     h2Elem.textContent = "Dorio";
