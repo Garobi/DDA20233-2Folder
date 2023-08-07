@@ -1,0 +1,12 @@
+{
+    "David Martinez": {
+        "img":"characters/davidmartinez.html",
+        "h2": "David Martinez (デイビッド・マルティネス)",
+        "p": "A Latino American teenager who is a top student at the prestigious Arasaka Academy. Due to coming from a poor family, he is relentlessly bullied by his classmates and feels like he does not belong at school. A sudden and devastating tragedy leads him to abandon his education and puts him on the path of becoming an edgerunner"
+    },
+    "Lucy Kushinada": {
+        "img":"img/Lucy_Kushinada_face.png",
+        "h2":"Lucyna 'Lucy' Kushinada (ルーシー)",
+        "p":"A young netrunner who becomes romantically involved with David and introduces him to the criminal underworld of Night City. She has a particular hatred towards Arasaka and dreams of traveling to the Moon."
+    }
+}
