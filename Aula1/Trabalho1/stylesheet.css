@@ -1,3 +1,8 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
 body,
 h1,
 h2,
@@ -14,6 +19,8 @@ body {
   color: #333;
   font-family: Arial, sans-serif;
   margin: 10px 100px 10px 100px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 li {

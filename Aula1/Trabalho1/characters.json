@@ -1,62 +1,74 @@
 {
     "0": {
-        "img":"characters/davidmartinez.html",
+        "img": "img/david_martinez_face.png",
         "h2": "David Martinez (デイビッド・マルティネス)",
-        "p": "A Latino American teenager who is a top student at the prestigious Arasaka Academy. Due to coming from a poor family, he is relentlessly bullied by his classmates and feels like he does not belong at school. A sudden and devastating tragedy leads him to abandon his education and puts him on the path of becoming an edgerunner"
+        "p": "A Latino American teenager who is a top student at the prestigious Arasaka Academy. Due to coming from a poor family, he is relentlessly bullied by his classmates and feels like he does not belong at school. A sudden and devastating tragedy leads him to abandon his education and puts him on the path of becoming an edgerunner",
+        "url": "./characters/davidmartinez.html"
     },
     "1": {
-        "img":"img/Lucy_Kushinada_face.png",
+        "img": "img/Lucy_Kushinada_face.png",
         "h2":"Lucyna 'Lucy' Kushinada (ルーシー)",
-        "p":"A young netrunner who becomes romantically involved with David and introduces him to the criminal underworld of Night City. She has a particular hatred towards Arasaka and dreams of traveling to the Moon."
+        "p":"A young netrunner who becomes romantically involved with David and introduces him to the criminal underworld of Night City. She has a particular hatred towards Arasaka and dreams of traveling to the Moon.",
+        "url":"./characters/lucykushinada.html"
     },
     "2": {
-        "img":"img/rebecca.png",
+        "img": "img/rebecca.png",
         "h2": "Rebecca (レベッカ)",
-        "p": "A trigger-happy edgerunner and a member of Maine's crew. She is also Pilar's younger sister."
+        "p": "A trigger-happy edgerunner and a member of Maine's crew. She is also Pilar's younger sister.",
+        "url": "./characters/rebecca.html"
     },
     "3": {
-        "img": "placeholder",
+        "img": "img/maine.png",
         "h2": "Maine (メイン)",
-        "p": "A veteran edgerunner who commands his own crew. He is one of Gloria's clients and allows David to join the crew under his guidance."
+        "p": "A veteran edgerunner who commands his own crew. He is one of Gloria's clients and allows David to join the crew under his guidance.",
+        "url": "./characters/maine.html"
     },
     "4": {
         "img": "img/dorio.png",
         "h2": "Dorio (ドリオ)",
-        "p": "Maine's girlfriend and second-in-command."
+        "p": "Maine's girlfriend and second-in-command.",
+        "url": "./characters/dorio.html"
     },
     "5": {
-        "img": "placeholder",
+        "img": "img/pilar.png",
         "h2": "Pilar (ピラル)",
-        "p": "A foul-mouthed techie and a member of Maine's crew. He is also Rebecca's older brother."
+        "p": "A foul-mouthed techie and a member of Maine's crew. He is also Rebecca's older brother.",
+        "url": "./characters/pilar.html"
     },
     "6": {
-        "img": "placeholder",
+        "img": "img/kiwi.png",
         "h2": "Kiwi (キーウィ)",
-        "p": "A veteran netrunner who is often cold and stoic, and a member of Maine's crew."
+        "p": "A veteran netrunner who is often cold and stoic, and a member of Maine's crew.",
+        "url": "./characters/kiwi.html"
     },
     "7": {
-        "img": "placeholder",
+        "img": "img/falco.jpg",
         "h2": "Falco (ファルコ)",
-        "p": "A member of Maine's crew who works as the group's getaway driver."
+        "p": "A member of Maine's crew who works as the group's getaway driver.",
+        "url": "./characters/falco.html"
     },
     "8": {
-        "img": "placeholder",
+        "img": "img/faraday.webp",
         "h2": "Faraday (ファラデー)",
-        "p": "A fixer who works for Militech. He has a business relationship with Maine's crew and often hires them to conduct jobs that usually involve them performing corporate espionage against Arasaka."
+        "p": "A fixer who works for Militech. He has a business relationship with Maine's crew and often hires them to conduct jobs that usually involve them performing corporate espionage against Arasaka.",
+        "url": "./characters/faraday.html"
     },
     "9": {
-        "img": "placeholder",
+        "img": "img/ripperdoc.webp",
         "h2": "Ripperdoc (リパードク)",
-        "p": "A local ripperdoc who helps upgrade and install David's cybernetic implants, as well as providing him with the required immunosuppressants."
+        "p": "A local ripperdoc who helps upgrade and install David's cybernetic implants, as well as providing him with the required immunosuppressants.",
+        "url": "./characters/ripperdoc.html"
     },
     "10": {
-        "img": "placeholder",
+        "img": "img/gloria.webp",
         "h2": "Gloria Martinez (グロリア・マルティネス)",
-        "p": "David's mother and a paramedic who works herself to the bone to pay for his tuition at the Arasaka Academy."
+        "p": "David's mother and a paramedic who works herself to the bone to pay for his tuition at the Arasaka Academy.",
+        "url": "./characters/gloria.html"
     },
     "11": {
-        "img": "placeholder",
+        "img": "img/adam.webp",
         "h2": "Adam Smasher (アダム・スマッシャー)",
-        "p": "A bloodthirsty and fully cybernetic supersoldier who works for Arasaka as their chief of security. His English voice actor, Alec Newman, reprises the role from Cyberpunk 2077."
+        "p": "A bloodthirsty and fully cybernetic supersoldier who works for Arasaka as their chief of security. His English voice actor, Alec Newman, reprises the role from Cyberpunk 2077.",
+        "url": "./characters/adam.html"
     }
 }

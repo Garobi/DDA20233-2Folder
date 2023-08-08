@@ -20,31 +20,58 @@ function getRand(randArr) {
             randArr.push(val.toString())
         }
     }
-    debugger
 
     return randArr
 }
 
-async function setCharacters() {
+async function createCharacters(randval) {
     let characters = await getCharacters();
-    var randArr = [],
-        randval = getRand(randArr),
-        divElem = document.createElement("div"),
-        imgElem = document.createElement("img"),
-        h2Elem = document.createElement("h2"),
-        pElem = document.createElement("p");
-        
-    debugger;
-
-
-    imgElem.src = "img/dorio.png";
-    h2Elem.textContent = "Dorio";
-    pElem.textContent = "DorioP";
-    divElem.appendChild(imgElem);
-    divElem.appendChild(h2Elem);
+    var divElem = document.createElement('div'),
+        aElem = document.createElement('a'),
+        imgElem = document.createElement('img'),
+        h2Elem = document.createElement('h2'),
+        pElem = document.createElement('p');
+    
+    imgElem.src = characters[randval].img;
+    h2Elem.textContent = characters[randval].h2;
+    pElem.textContent = characters[randval].p;
+    aElem.href = characters[randval].url;
+    
+    aElem.appendChild(imgElem);
+    aElem.appendChild(h2Elem);
+    divElem.appendChild(aElem);
     divElem.appendChild(pElem);
-    divElem.className = "character";
-    document.getElementById("containerId").appendChild(divElem)
+    divElem.className = 'character';
+    document.getElementById('containerId').appendChild(divElem);
+
+}
+
+function setCharacters() {
+    var randArr = [],
+        randval = getRand(randArr);
+
+    for (let index = 0; index < randval.length; index++) {
+        createCharacters(randval[index]);
+        
+    }
+}
+
+function myFunction() {
+    var horario = new Date().getHours(),
+        saudacao = "";
+    if (horario > 18) {
+        saudacao = "Boa noite, Professor. "
+    } else if (horario > 12) {
+        saudacao = 'Boa tarde, Professor. ';
+    } else if (horario > 7) {
+        saudacao = 'Bom dia, Professor. ';
+    } else {
+        saudacao = 'Boa madrugada, Professor. ';
+    }
+    debugger;
+    alert(
+        `${saudacao}Quando a gente fizer o trabalho colocando um back-end eu implemento um sistema de busca. Até lá, Fica só essa mensagem de alerta mesmo`
+    );
 }
 
 
