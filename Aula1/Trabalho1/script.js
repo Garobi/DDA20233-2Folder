@@ -1,5 +1,3 @@
-
-
 async function getCharacters() {
     let jsonChar = 'characters.json';
     try {
@@ -33,17 +31,38 @@ async function createCharacters(randval) {
         pElem = document.createElement('p');
     
     imgElem.src = characters[randval].img;
+    imgElem.id = randval;
+    imgElem.onclick = function(){zoomImg(randval)};
     h2Elem.textContent = characters[randval].h2;
     pElem.textContent = characters[randval].p;
     aElem.href = characters[randval].url;
     
-    aElem.appendChild(imgElem);
     aElem.appendChild(h2Elem);
+    divElem.appendChild(imgElem);
     divElem.appendChild(aElem);
     divElem.appendChild(pElem);
     divElem.className = 'character';
     document.getElementById('containerId').appendChild(divElem);
 
+}
+
+function zoomImg(imgVal){
+    var divDim = document.createElement('div'),
+        divCont = document.createElement('div')
+        imgZoom = document.createElement('img');
+    
+    divDim.id = "dimScreen";
+    imgZoom.id = "imgOverlay";
+    imgZoom.src = document.getElementById(imgVal).src;
+    imgZoom.onclick = removeScreen;
+    divCont.appendChild(imgZoom);
+    divCont.appendChild(divDim);
+    divCont.className = "overlay";
+    document.body.prepend(divCont);
+}
+
+function removeScreen(){
+    document.getElementsByClassName("overlay")[0].remove()
 }
 
 function setCharacters() {
@@ -68,7 +87,6 @@ function myFunction() {
     } else {
         saudacao = 'Boa madrugada, Professor. ';
     }
-    debugger;
     alert(
         `${saudacao}Quando a gente fizer o trabalho colocando um back-end eu implemento um sistema de busca. Até lá, Fica só essa mensagem de alerta mesmo`
     );
